@@ -1,0 +1,37 @@
+Q1. List 5 difference between Browser JS(console) v Nodejs.
+
+Ans-i. Browser js is used for client side applications and it gets executed only in browser. Nodejs is used for server side applications and it gets executed outside browser.
+ii. Browser js has its access limited to the browser. Nodejs has full system access so it can read and write to file system.
+iii. Browser js runs in any engine like V8, Javascript core, Spider monkey but node js runs only in V8 engine.
+iv. In Browser js moduling is not mandatory but in node js everything has to be kept in modules.
+v. In browser js one cannot control the access of browsers for visitors but in node js unless a open source application is created, one can control the access of particular version of node js in which the application will run.
+
+Q2. Watch & summary 5 points-
+
+Ans- i. Browser renders a website by the following process-
+parse html+parse CSS----->Render tree------>Layout------>Paint
+ii. Parsing in html is done by-
+Script execution---->tokenizer---->Tree Construction------>DOM------>Script execution
+iii. For handling <script>, <style> speculative parsing is used else it will interrupt the parsing process if script or style occurs. Script tag to be kept ar bottom for uninterrupted parsing.
+iv. Parsing of CSS is done then DOM and CCOM are combined to form render tree. Render tree is like a multiple tree which renders objects, styles,layers,line boxes.
+v. Then layout and paint is done.
+
+Q4. Execute the below code and write your description in txt file
+a. typeof(1)
+Ans- number
+b. typeof(1.1)
+Ans- number
+c. typeof('1.1')
+Ans- string
+d. typeof(true)
+Ans- boolean
+e. typeof(null)
+Ans- object
+f. typeof(undefined)
+Ans- undefined
+g. typeof([])
+Ans- object
+h. typeof({})
+Ans- object
+i. typeof(NaN)
+Ans- number
